@@ -1,0 +1,29 @@
+function getProfile() {
+  return {
+    "name": "Khairunnas",
+    "age" :24,
+    "address" : "Jln.kancil, kebon pala, makassar, jakarta timur",
+    "hobbies" : ["Music", "Traveling"],
+    "is_married" : false,
+    "list_school" : [{
+          "name" : "SMAN 11 Banda Aceh",
+          "year_in" : 2010,
+          "year_out" : 2013,
+          "major" : "IPA"
+        },{
+          "name" : "STMIK Abulayatama",
+          "year_in" : 2013,
+          "year_out" : 2018,
+          "major" : "Sistem Informasi"
+        }],
+        
+        "skills" : [{
+          "skill_name" : "Web Programming",
+          "level" : "Beginner"
+        },{
+          "name" : "Mobile Developer",
+          "level" : "Beginner"
+        }],
+        "interest_in_coding" : true
+  }
+}
